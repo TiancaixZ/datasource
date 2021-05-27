@@ -21,6 +21,7 @@ public class TestCompareSort {
 
 
         System.out.println(getMax(student, student2));
+        System.out.println("你好");
 
     }
 
