@@ -33,12 +33,7 @@ public class Bubble {
      * @return
      */
     private static boolean greater(Comparable a, Comparable b){
-        int result = a.compareTo(b);
-        if(result >=0){
-            return true;
-        } else {
-            return false;
-        }
+        return a.compareTo(b) > 0;
     }
 
     /**
