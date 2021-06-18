@@ -21,3 +21,9 @@ W
 'src/com/javadatasource/sort/Bubble.java,e/e/eec8f23498de73138ba90299136a457d51511042
 _
 /src/com/javadatasource/test/BinaryTreeTest.java,5/6/5641524f3f44fb8680c3e40b31d1d6019ba74bbb
+[
++src/com/javadatasource/tree/BinaryTree.java,c/f/cf9fb1b5120c61fb06670c286bd549d3a02293da
+f
+6src/com/javadatasource/test/BinaryTreeErgodicTest.java,5/2/52d41137910acd952a6e125ebee7956b1c98a1a4
+X
+(src/com/javadatasource/linear/Queue.java,a/c/acd30590f85521d0fed642e9eec957ddae7f1fcf

@@ -12,15 +12,32 @@ public class SequenceListTest {
     public static void main(String[] args) {
         SequenceList<String> sl = new SequenceList<String>(10);
 
-        sl.insert("姚明");
-        sl.insert("科比");
-        sl.insert("麦迪");
-        sl.insert(1,"詹姆斯");
-        sl.insert(2,"詹斯");
-        System.out.println(2 + " " + sl.get(2));
-        System.out.println(sl.remove(0));
-        sl.clear();
-        System.out.println(sl.length());
+        sl.insert(0,"姚明");
+        sl.insert(1,"科比");
+        sl.insert(2,"麦迪");
+        sl.insert(3,"詹姆斯");
+        sl.insert(4,"卡特");
+
+        System.out.println(sl.capacity());
+
+        sl.insert(5,"aa");
+        System.out.println(sl.capacity());
+        sl.insert(5,"aa");
+        sl.insert(5,"aa");
+        sl.insert(5,"aa");
+        sl.insert(5,"aa");
+        sl.insert(5,"aa");
+        System.out.println(sl.capacity());
+
+        sl.remove(1);
+        sl.remove(1);
+        sl.remove(1);
+        sl.remove(1);
+        sl.remove(1);
+        sl.remove(1);
+        sl.remove(1);
+
+        System.out.println(sl.capacity());
 
     }
 }
