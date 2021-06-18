@@ -1,6 +1,8 @@
 package com.javadatasource.tree;
 
 
+import sun.misc.Queue;
+
 /**
  * @program: datasource
  * @description: BinaryTree
@@ -151,5 +153,75 @@ public class BinaryTree<Key extends Comparable<Key>, Value> {
     public int size(){
         return N;
     }
+
+    //使用前序遍历，获取整个树中的所有键
+    public Queue<Key> preErgodic(){
+        Queue<Key> keys = new Queue<>();
+        preErgodic(root, keys);
+        return keys;
+    }
+
+    //使用前序遍历，把指定树x中的所有键放入到keys队列中
+    public void preErgodic(Node x, Queue<Key> keys){
+        if(x == null){
+            return;
+        }
+        keys.enqueue(x.key);
+        if(x.left != null){
+            preErgodic(x.left, keys);
+        }
+        if(x.right != null){
+            preErgodic(x.right, keys);
+        }
+    }
+
+    //使用中序遍历，获取整个树中的所有键
+    public Queue<Key> midErgodic(){
+        Queue<Key> keys = new Queue<>();
+        midErgodic(root, keys);
+        return keys;
+    }
+
+    //使用中序遍历，把指定树x中的所有键放入到keys队列中
+    private void midErgodic(Node x, Queue<Key> keys){
+        if(x == null){
+            return;
+        }
+        if(x.left != null){
+            midErgodic(x.left, keys);
+        }
+        keys.enqueue(x.key);
+        if(x.right != null){
+            midErgodic(x.right, keys);
+        }
+    }
+
+    //使用后序遍历，获取整个树中的所有键
+    public Queue<Key> afterErgodic(){
+        Queue<Key> keys = new Queue<Key>();
+        afterErgodic(root, keys);
+        return keys;
+    }
+
+    //使用后序遍历，把指定树x中的所有键放入到keys队列中
+    private void afterErgodic(Node x,Queue<Key> keys){
+        if(x == null){
+            return;
+        }
+
+        if(x.left != null){
+            afterErgodic(x.left, keys);
+        }
+        if(x.right != null){
+            afterErgodic(x.right, keys);
+        }
+
+        keys.enqueue(x.key);
+    }
+
+//    //使用层序遍历，获取整个树中的所有键
+//    public Queue<Key> layerErgodic(){
+//
+//    }
 
 }

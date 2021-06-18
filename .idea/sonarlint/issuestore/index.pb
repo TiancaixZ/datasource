@@ -13,9 +13,11 @@ Z
 *src/com/javadatasource/sort/Insertion.java,8/7/87ef666036f6d670e537f108aaf4ec2e6150f9d6
 ^
 .src/com/javadatasource/test/TestShellSort.java,0/d/0d392678006ec5f985589be495951a56adc40856
-W
-'src/com/javadatasource/sort/Bubble.java,e/e/eec8f23498de73138ba90299136a457d51511042
 _
 /src/com/javadatasource/test/TestBubbleSort.java,1/f/1f0ed8b36cda0961de1a0fac0e011b7ad6d19057
 X
 (src/com/javadatasource/sort/Student.java,9/f/9fa01f999cf1faa89395341bd26993dd331e4e01
+W
+'src/com/javadatasource/sort/Bubble.java,e/e/eec8f23498de73138ba90299136a457d51511042
+_
+/src/com/javadatasource/test/BinaryTreeTest.java,5/6/5641524f3f44fb8680c3e40b31d1d6019ba74bbb
