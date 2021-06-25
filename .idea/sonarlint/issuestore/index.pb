@@ -5,12 +5,6 @@ b
 2src/com/javadatasource/test/TestInsertionTest.java,a/3/a372a544c00c03cd8f95fc3a6e30fa6d9ff73b3b
 ^
 .src/com/javadatasource/test/TestSelection.java,d/1/d1144925714a895ebf9086d7e06c50034918a48a
-V
-&src/com/javadatasource/sort/Shell.java,f/7/f724e70f1ab42e8a20c3e8ac09683e04f725318b
-Z
-*src/com/javadatasource/sort/Selection.java,1/3/13de47061afaa851e0318bd8114869d0252aad39
-Z
-*src/com/javadatasource/sort/Insertion.java,8/7/87ef666036f6d670e537f108aaf4ec2e6150f9d6
 ^
 .src/com/javadatasource/test/TestShellSort.java,0/d/0d392678006ec5f985589be495951a56adc40856
 _
@@ -25,5 +19,13 @@ _
 +src/com/javadatasource/tree/BinaryTree.java,c/f/cf9fb1b5120c61fb06670c286bd549d3a02293da
 f
 6src/com/javadatasource/test/BinaryTreeErgodicTest.java,5/2/52d41137910acd952a6e125ebee7956b1c98a1a4
+Z
+*src/com/javadatasource/sort/Insertion.java,8/7/87ef666036f6d670e537f108aaf4ec2e6150f9d6
+V
+&src/com/javadatasource/sort/Shell.java,f/7/f724e70f1ab42e8a20c3e8ac09683e04f725318b
+Z
+*src/com/javadatasource/sort/Selection.java,1/3/13de47061afaa851e0318bd8114869d0252aad39
 X
 (src/com/javadatasource/linear/Queue.java,a/c/acd30590f85521d0fed642e9eec957ddae7f1fcf
+_
+/src/com/javadatasource/linear/SequenceList.java,2/0/20418ec2271e29e151b240bbb558f06e7269e3de

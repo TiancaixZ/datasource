@@ -30,13 +30,15 @@ public class SequenceListTest {
         System.out.println(sl.capacity());
 
         sl.remove(1);
-        sl.remove(1);
-        sl.remove(1);
-        sl.remove(1);
-        sl.remove(1);
-        sl.remove(1);
-        sl.remove(1);
-
+//        sl.remove(1);
+//        sl.remove(1);
+//        sl.remove(1);
+//        sl.remove(1);
+//        sl.remove(1);
+//        sl.remove(1);
+        sl.clear();
+        System.out.println("=======");
+       
         System.out.println(sl.capacity());
 
     }
