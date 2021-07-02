@@ -1,0 +1,7 @@
+
+`	java:S1126"FDefine and throw a dedicated exception instead of using a generic one.(ÚİçŸøÿÿÿÿ
+`	java:S112N"FDefine and throw a dedicated exception instead of using a generic one.(şŞüÈüÿÿÿÿ
+`	java:S112^"FDefine and throw a dedicated exception instead of using a generic one.(şŞüÈüÿÿÿÿ
+f	java:S116"LRename this field "N" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›¼ÿ»øÿÿÿÿ
+e
+java:S2272 "NAdd a "NoSuchElementException" for iteration beyond the end of the collection.(ÓÔç

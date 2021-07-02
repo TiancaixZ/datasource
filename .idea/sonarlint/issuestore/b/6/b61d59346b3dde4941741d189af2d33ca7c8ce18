@@ -1,0 +1,31 @@
+
+E
+java:S3740'"/Provide the parametrized type for this generic.(à²‡ÿ
+E
+java:S3740B"/Provide the parametrized type for this generic.(ôĞ¾Â
+D
+java:S3740D"/Provide the parametrized type for this generic.(ÇÍ×x
+\
+java:S2259"FA "NullPointerException" could be thrown; "entrance" is nullable here.(ª®Ğ¼
+M
+java:S2589,"7Remove this expression which always evaluates to "true"(¦›°À
+‡
+java:S1130
+"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙØ¤Şıÿÿÿÿ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¾ò³—ûÿÿÿÿ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ò…øÿÿÿÿ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¶¾­­ûÿÿÿÿ
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ªÑƒÎ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ºÈƒåÿÿÿÿÿ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÎåÈÆûÿÿÿÿ
+n
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ùÏ¼=
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ª®Ğ¼
+T
+java:S1854)"8Remove this useless assignment to local variable "slow".(Õ©ò8ÔŒå’¤/

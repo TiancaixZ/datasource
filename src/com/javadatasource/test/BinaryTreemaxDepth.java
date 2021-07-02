@@ -5,11 +5,11 @@ import com.javadatasource.tree.BinaryTree;
 
 /**
  * @program: datasource
- * @description: BinaryTree Ergodic Test
+ * @description: BinaryTreemaxDepth
  * @author: Chen2059
- * @create: 2021-06-18
+ * @create: 2021-07-02
  **/
-public class BinaryTreeErgodicTest {
+public class BinaryTreemaxDepth {
     public static void main(String[] args) {
         BinaryTree<String, String> tree = new BinaryTree<>();
         tree.put("E", "5");
@@ -21,10 +21,8 @@ public class BinaryTreeErgodicTest {
         tree.put("H", "8");
         tree.put("C", "3");
 
-        Queue<String> queue = tree.layerErgodic();
-        for (String s : queue) {
-            System.out.println(s + "=" + tree.get(s));
-        }
-    }
+       int i = tree.maxDepth();
 
+        System.out.println(i);
+    }
 }
