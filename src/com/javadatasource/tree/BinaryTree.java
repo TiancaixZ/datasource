@@ -224,10 +224,10 @@ public class BinaryTree<Key extends Comparable<Key>, Value> {
             return;
         }
         if(x.left != null){
-            midErgodic(x.left, keys);
+            afterErgodic(x.left, keys);
         }
         if(x.right != null){
-            midErgodic(x.right, keys);
+            afterErgodic(x.right, keys);
         }
         keys.enqueue(x.key);
 
@@ -244,7 +244,7 @@ public class BinaryTree<Key extends Comparable<Key>, Value> {
             Node x = nodes.dequeue();
             keys.enqueue(x.key);
             if(x.left != null){
-                nodes.enqueue(x.  left);
+                nodes.enqueue(x.left);
             }
             if(x.right != null){
                 nodes.enqueue(x.right);
